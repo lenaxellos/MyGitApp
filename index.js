@@ -7,6 +7,10 @@ function bugfix(){
     console.log('오류 수정 함수');
 }
 
+function isLogin(){
+    console.log('로그인 체크 함수');
+}
+
 function login(username, password) {
     $.ajax({
         type : 'post',           // 타입 (get, post, put 등등)
