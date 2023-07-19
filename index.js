@@ -24,4 +24,7 @@ function login(username, password) {
         },
         
     })
+
+    function loginou(username) {    
+    }
 };
