@@ -16,14 +16,12 @@ function login(username, password) {
         data : JSON.stringify({  // 보낼 데이터 (Object , String, Array)
           "no" : no,
           "name" : username,
-          "password": password
+          "password": password,
           "nick" : nick
         }),
         success : function(result) { // 결과 성공 콜백함수
             console.log(result);
         },
-        error : function(request, status, error) { // 결과 에러 콜백함수
-            console.log(error)
-        }
+        
     })
 };
